@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    color: bisque;
+    text-align: center;
+}
+
+h2 {
+    font-size: medium;
+    margin-top: -20px;
+    font-weight: 300;
+
+}
+
+h3, h4, p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h4 {
+    font-size: small;
+    margin-top: -20px;
+    font-weight: 100;
+    color: ghostwhite;
+}
+
+.hero_image {
+    max-width: 500px;
+    padding: 10px;
+}
+
+.highlight, .insight {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.insight {
+    background-color: chartreuse;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.single_post {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: bisque 2px solid;
+}
